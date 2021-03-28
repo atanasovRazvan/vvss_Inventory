@@ -170,7 +170,7 @@ public class AddPartController implements Initializable, Controller {
                 displayScene(event, "/fxml/MainScreen.fxml");
             }
             
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException | InventoryService.ServiceException e) {
             System.out.println("Form contains blank field.");
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Error Adding Part!");
