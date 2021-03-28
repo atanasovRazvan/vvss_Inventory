@@ -15,7 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293247ac-135c-42c0-9ae7-0af0d288f6e6" name="Default Changelist" comment="Updated code after review &amp; SonarLint" />
+    <list default="true" id="293247ac-135c-42c0-9ae7-0af0d288f6e6" name="Default Changelist" comment="Updated code after review &amp; SonarLint">
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +115,7 @@
       <workItem from="1615575326083" duration="2653000" />
       <workItem from="1615790118351" duration="96000" />
       <workItem from="1615796155371" duration="1346000" />
-      <workItem from="1616921359790" duration="637000" />
+      <workItem from="1616921359790" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="Updated code after review &amp; SonarLint">
       <created>1616921402946</created>
@@ -176,10 +179,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616921473857" />
-    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616921440401">
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616921808588">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1616921440401" />
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1616921808588" />
     <state x="548" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615044908047">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
