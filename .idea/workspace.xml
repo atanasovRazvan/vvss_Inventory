@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="293247ac-135c-42c0-9ae7-0af0d288f6e6" name="Default Changelist" comment="Updated code after review &amp; SonarLint" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:atanasovRazvan/vvss_Inventory.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1p9FWaBvQgoR4uFL4Ff7hIHbFLI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
+  </component>
+  <component name="RunManager" selected="Maven.Unnamed">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inventory.Main" />
+      <module name="amir2451" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="293247ac-135c-42c0-9ae7-0af0d288f6e6" name="Default Changelist" comment="" />
+      <created>1614587431588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614587431588</updated>
+      <workItem from="1614587435178" duration="60000" />
+      <workItem from="1614587550205" duration="651000" />
+      <workItem from="1614588545506" duration="1041000" />
+      <workItem from="1614590257010" duration="1591000" />
+      <workItem from="1615043013095" duration="5303000" />
+      <workItem from="1615575045064" duration="254000" />
+      <workItem from="1615575326083" duration="2653000" />
+      <workItem from="1615790118351" duration="96000" />
+      <workItem from="1615796155371" duration="1346000" />
+      <workItem from="1616921359790" duration="637000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated code after review &amp; SonarLint">
+      <created>1616921402946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616921402946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated code after review &amp; SonarLint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code after review &amp; SonarLint" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="0" key="#Unnamed" timestamp="1614588059726">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="435" y="0" key="#Unnamed/0.0.1536.834@0.0.1536.834" timestamp="1614588059726" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1615790199876">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615790199876" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1615110445035">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615110445035" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1615110445034">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615110445034" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1615110445033">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615110445033" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1615110445034">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615110445034" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1615575563748">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1615575563748" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1616921473857">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616921473857" />
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616921440401">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1616921440401" />
+    <state x="548" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615044908047">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834@0.0.1536.834" timestamp="1615044908047" />
+    <state x="209" y="56" key="new project wizard" timestamp="1615790217995">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="56" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1615790217995" />
+  </component>
+</project>

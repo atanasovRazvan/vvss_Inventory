@@ -1,0 +1,12 @@
+
+<
+java:S2129c"!Remove this "Integer" constructor(ƒ®øÿÿÿÿÿ
+J
+java:S1874c"/Remove this use of "Integer"; it is deprecated.(ƒ®øÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(îÌ¹üÿÿÿÿ
+™
+java:S1158c"~Call the static method Integer.toString(...) instead of instantiating a temporary object to perform this to string conversion.(ƒ®øÿÿÿÿÿ
+:
+java:S2131c"Use "Integer.toString" instead.(ƒ®øÿÿÿÿÿ
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ƒ·»Â

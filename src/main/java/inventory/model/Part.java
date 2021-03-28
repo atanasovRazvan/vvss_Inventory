@@ -8,16 +8,16 @@ public abstract class Part {
     private int partId;
     private String name;
     private double price;
-    private int inStock;
+    private int numberInStock;
     private int min;
     private int max;
     
     // Constructor
-    public Part(int partId, String name, double price, int inStock, int min, int max) {
+    public Part(int partId, String name, double price, int numberInStock, int min, int max) {
         this.partId = partId;
         this.name = name;
         this.price = price;
-        this.inStock = inStock;
+        this.numberInStock = numberInStock;
         this.min = min;
         this.max = max;
     }
@@ -35,8 +35,8 @@ public abstract class Part {
         return price;
     }
 
-    public int getInStock() {
-        return inStock;
+    public int getnumberInStock() {
+        return numberInStock;
     }
 
     public int getMin() {
@@ -60,8 +60,8 @@ public abstract class Part {
         this.price = price;
     }
 
-    public void setInStock(int inStock) {
-        this.inStock = inStock;
+    public void setnumberInStock(int numberInStock) {
+        this.numberInStock = numberInStock;
     }
 
     public void setMin(int min) {
@@ -77,29 +77,29 @@ public abstract class Part {
      * Valid part will return an empty string
      * @param name
      * @param price
-     * @param inStock
+     * @param numberInStock
      * @param min
      * @param max
      * @param errorMessage
      * @return 
      */
-    public static String isValidPart(String name, double price, int inStock, int min, int max, String errorMessage) {
+    public static String isValidPart(String name, double price, int numberInStock, int min, int max, String errorMessage) {
         if(name.equals("")) {
             errorMessage += "A name has not been entered. ";
         }
         if(price < 0.01) {
             errorMessage += "The price must be greater than 0. ";
         }
-        if(inStock < 1) {
+        if(numberInStock < 1) {
             errorMessage += "Inventory level must be greater than 0. ";
         }
         if(min > max) {
             errorMessage += "The Min value must be less than the Max value. ";
         }
-        if(inStock < min) {
+        if(numberInStock < min) {
             errorMessage += "Inventory level is lower than minimum value. ";
         }
-        if(inStock > max) {
+        if(numberInStock > max) {
             errorMessage += "Inventory level is higher than the maximum value. ";
         }
         return errorMessage;
@@ -107,7 +107,7 @@ public abstract class Part {
 
     @Override
     public String toString() {
-        return this.partId+","+this.name+","+this.price+","+this.inStock+","+
+        return this.partId+","+this.name+","+this.price+","+this.numberInStock+","+
                 this.min+","+this.max;
     }
 }

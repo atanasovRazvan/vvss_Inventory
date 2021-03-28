@@ -12,16 +12,16 @@ public class Product {
     private int productId;
     private String name;
     private double price;
-    private int inStock;
+    private int numberInStock;
     private int min;
     private int max;
 
     // Constructor
-    public Product(int productId, String name, double price, int inStock, int min, int max, ObservableList<Part> partList) {
+    public Product(int productId, String name, double price, int numberInStock, int min, int max, ObservableList<Part> partList) {
         this.productId = productId;
         this.name = name;
         this.price = price;
-        this.inStock = inStock;
+        this.numberInStock = numberInStock;
         this.min = min;
         this.max = max;
         this.associatedParts= partList;
@@ -44,8 +44,8 @@ public class Product {
         return price;
     }
 
-    public int getInStock() {
-        return inStock;
+    public int getnumberInStock() {
+        return numberInStock;
     }
 
     public int getMin() {
@@ -58,7 +58,7 @@ public class Product {
     
     // Setters
     public void setAssociatedParts(ObservableList<Part> associatedParts) {
-        associatedParts = associatedParts;
+        this.associatedParts = associatedParts;
     }
 
     public void setProductId(int productId) {
@@ -73,8 +73,8 @@ public class Product {
         this.price = price;
     }
 
-    public void setInStock(int inStock) {
-        this.inStock = inStock;
+    public void setnumberInStock(int numberInStock) {
+        this.numberInStock = numberInStock;
     }
 
     public void setMin(int min) {
@@ -109,13 +109,13 @@ public class Product {
      * @param name
      * @param min
      * @param max
-     * @param inStock
+     * @param numberInStock
      * @param price
      * @param parts
      * @param errorMessage
      * @return 
      */
-    public static String isValidProduct(String name, double price, int inStock, int min, int max, ObservableList<Part> parts, String errorMessage) {
+    public static String isValidProduct(String name, double price, int numberInStock, int min, int max, ObservableList<Part> parts, String errorMessage) {
         double sumOfParts = 0.00;
         for (int i = 0; i < parts.size(); i++) {
             sumOfParts += parts.get(i).getPrice();
@@ -132,10 +132,10 @@ public class Product {
         if (min > max) {
             errorMessage += "The Min value must be less than the Max value. ";
         }
-        if(inStock < min) {
+        if(numberInStock < min) {
             errorMessage += "Inventory level is lower than minimum value. ";
         }
-        if(inStock > max) {
+        if(numberInStock > max) {
             errorMessage += "Inventory level is higher than the maximum value. ";
         }
         if (parts.size() < 1) {
@@ -149,7 +149,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "P,"+this.productId+","+this.name+","+this.price+","+this.inStock+","+
+        return "P,"+this.productId+","+this.name+","+this.price+","+this.numberInStock+","+
                 this.min+","+this.max;
     }
 }

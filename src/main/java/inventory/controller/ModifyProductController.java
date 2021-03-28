@@ -28,7 +28,6 @@ public class ModifyProductController implements Initializable, Controller {
     
     // Declare fields
     private Stage stage;
-    private Parent scene;
     private ObservableList<Part> addParts = FXCollections.observableArrayList();
     private String errorMessage = new String();
     private int productId;
@@ -109,7 +108,7 @@ public class ModifyProductController implements Initializable, Controller {
         productId = service.getAllProducts().get(productIndex).getProductId();
         productIdTxt.setText(Integer.toString(product.getProductId()));
         nameTxt.setText(product.getName());
-        inventoryTxt.setText(Integer.toString(product.getInStock()));
+        inventoryTxt.setText(Integer.toString(product.getnumberInStock()));
         priceTxt.setText(Double.toString(product.getPrice()));
         maxTxt.setText(Integer.toString(product.getMax()));
         minTxt.setText(Integer.toString(product.getMin()));
@@ -135,6 +134,7 @@ public class ModifyProductController implements Initializable, Controller {
      */
     @FXML
     private void displayScene(ActionEvent event, String source) throws IOException {
+        Parent scene;
         stage = (Stage)((Button)event.getSource()).getScene().getWindow();
         FXMLLoader loader= new FXMLLoader(getClass().getResource(source));
         //scene = FXMLLoader.load(getClass().getResource(source));
