@@ -38,9 +38,9 @@ class InventoryServiceTest {
     @DisplayName("parametrized test for invalid price type")
     @ParameterizedTest
     @ValueSource(strings = { "zece ron" })
-    void invalidPriceTypeAddInhousePart(Double price) {
+    void invalidPriceTypeAddInhousePart(String price) {
         try{
-            inventoryService.addInhousePart("Denumire", price, 50, 1, 100, 123);
+            inventoryService.addInhousePart("Denumire", Double.parseDouble(price), 50, 1, 100, 123);
             fail();
         }
         catch(Exception typeException){

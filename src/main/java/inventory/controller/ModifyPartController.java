@@ -78,7 +78,7 @@ public class ModifyPartController implements Initializable, Controller {
         partId = service.getAllParts().get(partIndex).getPartId();
         partIdTxt.setText(Integer.toString(part.getPartId()));
         nameTxt.setText(part.getName());
-        inventoryTxt.setText(Integer.toString(part.getInStock()));
+        inventoryTxt.setText(Integer.toString(part.getnumberInStock()));
         priceTxt.setText(Double.toString(part.getPrice()));
         maxTxt.setText(Integer.toString(part.getMax()));
         minTxt.setText(Integer.toString(part.getMin()));
