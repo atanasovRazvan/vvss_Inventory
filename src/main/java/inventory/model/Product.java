@@ -4,6 +4,8 @@ package inventory.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.util.Objects;
+
 
 public class Product {
     
@@ -151,5 +153,11 @@ public class Product {
     public String toString() {
         return "P,"+this.productId+","+this.name+","+this.price+","+this.numberInStock+","+
                 this.min+","+this.max;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        Product product = (Product) o;
+        return productId == product.getProductId();
     }
 }
